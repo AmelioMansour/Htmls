@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+</head>
+
+<body>
+    <header id="page_header">
+        <nav id="nav_bar">
+            <menu>
+                <li>
+                    <a href="#multimedia"> HTML Multi Media </a>
+                </li>
+                <li>
+                    <a href="#tables">HTML Tables</a>
+                </li>
+                <li><a href="#usefultags">Useful Tags</a>
+                </li>
+            </menu>
+
+        </nav>
+        <h1>Demon on HTML media elements</h1>
+    </header>
+
+    <main id="page_main_content">
+        <section id="multimedia">
+            <div id="audio_files">
+                <h2>Demo of audio</h2>
+                <audio src="audio/file_example_MP3_2MG.mp3" controls true>
+                    Audio File Not supported by your browser.
+                </audio>
+            </div>
+            <div id="video_files">
+                <h2>Demo of video</h2>
+                <video src="videos/file_example_MOV_1280_1_4MB.mov#t=10,30" controls autoplay width="30%">
+                    Your browser does not support the video format.
+                </video>
+            </div>
+        </section>
+        <section id="tables">
+            <h2>HTML Tables</h2>
+            <p>Bewlow is an example of an html table</p>
+            <table id="html_table table1" border="2">
+                <tr>
+                    <!--Row 1-->
+                    <th>Menu id</th>
+                    <th>Menu Item</th>
+                    <th>Price</th>
+                </tr>
+                <tr>
+                    <!--Row 2-->
+                    <td>1</td>
+                    <td>Pizza</td>
+                    <td>$10.00</td>
+
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Pasta</td>
+                    <td>$12.99</td>
+                    </td>
+
+                </tr>
+            </table>
+            <br>
+            <table id="html_table span" border="2">
+                <caption>Demo of rowspan</caption>
+                <tr>
+                    <td>Child Name</td>
+                    <td>Parent Name</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">John</td>
+                    <td>Jill</td>
+                </tr>
+                <tr>
+                    <td colspan="2"> Jack</td>
+
+                </tr>
+                <tr>
+                    <td> </td>
+                </tr>
+            </table>
+
+        </section>
+        <section id="Useful Tags">
+            <h2>Useful HTML Tags</h2>
+            <h3>Blockquote elements</h3>
+            <blockquote cite="https://google.com">
+                "Yolo" - The Web.
+            </blockquote>
+            <h4>Summary and detailed elements</h4>
+            <summary>
+                <details>Rams 50:2 Lions</details>
+            </summary>
+
+            <h3>Inline Tags</h3>
+            <h4>Cite tag</h4>
+            The homepage of Oakland is <cite> www.oakland.edu</cite>
+
+            <h4>The abbreviation tag</h4>
+            Few of the course codes in OU are <abbr title="Computer Science">CSI</abbr>,
+            <abbr title="Engineering Center">EC</abbr>
+
+            <h4>Subscript and superscript</h4>
+            <p>a <sup> 2</sup> H<sub>2</sub></p>
+
+            <h4>The code element</h4>
+            <code>C++ coding &lt; &lt; Hello, World;
+            </code>
+
+            <h4>Time tag</h4>
+            Classes start this fall from <time datetime="2021-09-02">SEP 02</time>
+
+            <h3>Tags that require JavaScript to be full functional</h3>
+            <h4>Button Tag</h4>
+            <a href="#page_header">
+                <button type="menu">Go to top</button>
+            </a>
+
+            <h4>The bdo tag</h4>
+            <bdo dir="ltr">This is left to right orientation.</bdo>
+            <br>
+            <bdo dir="rtl">This is right to left</bdo>
+
+            <h4>The iframe element</h4>
+            <iframe src="https://www.oakland.edu" frameborder="1" width="30%"></iframe>
+            Sorry this page is not supported by your browser
+
+            <h4>The progress and meter elements</h4>
+            <h5>Progress element</h5>
+            <label for="Survery_Progress">Survey Progress</label>
+            <progress id="Survery_Progress" min=2 max=10 value=7>  </progress>  
+                      
+        </section>
+
+    </main>
+    <br>
+    <footer id="Page_footer">
+        <address>
+            115, library dr,Engineering Center <br>
+            Oakland University, Rocherster Hills, MI
+        </address>
+
+    </footer>
+</body>
+
+</html>
